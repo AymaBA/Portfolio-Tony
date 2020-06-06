@@ -20,7 +20,6 @@ function emailIsValid(email) {
 }
 
 form.addEventListener("submit", (e) => {
-	alert("qsedfsdf")
 	e.preventDefault();
 	if (first_name.value && last_name.value && email.value && telephone.value && comments.value) {
 		if (emailIsValid(email.value)) {
